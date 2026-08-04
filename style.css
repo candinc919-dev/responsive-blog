@@ -104,3 +104,17 @@ footer{border-top:1px solid var(--line)}
   .newsletter-card{padding:34px 24px}.newsletter form{grid-template-columns:1fr}.newsletter button{width:100%}
   .footer-inner{padding:28px 0;flex-direction:column;justify-content:center;text-align:center}
 }
+
+/* Language switcher */
+.language-button{
+  min-width:58px;height:42px;padding:0 11px;display:inline-flex;align-items:center;
+  justify-content:center;gap:7px;border:1px solid var(--line);border-radius:999px;
+  color:var(--text);background:var(--surface);font-weight:700;transition:.2s
+}
+.language-button:hover{color:#fff;border-color:var(--accent);background:var(--accent)}
+.language-icon{font-size:.9rem}
+#languageLabel{font-size:.75rem;letter-spacing:.04em}
+@media(max-width:420px){
+  .language-button{min-width:46px;padding:0 8px}
+  .language-icon{display:none}
+}

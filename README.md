@@ -21,3 +21,10 @@ Settings → Pages → Deploy from a branch → `main` → `/ (root)`
 Canlı adres:
 
 `https://candinc919-dev.github.io/responsive-blog/`
+
+
+## Bilingual Update
+
+- Turkish and English interface
+- Language choice saved in localStorage
+- Navigation, article cards, filters, About and newsletter sections translated
